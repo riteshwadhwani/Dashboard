@@ -18,8 +18,8 @@ const Navbar = () => {
            <Brightness1/>
            </button> */}
            <button className='group'>
-           <AccessibilityNewIcon/>
-           <div className='w-fit rounded-md bg-slate-300 text-slate-950 invisible group-hover:visible'><a href={'https://portfoliobyritesh.netlify.app/'}>portfolio</a></div>
+           <a href={'https://portfoliobyritesh.netlify.app/'}><AccessibilityNewIcon/></a>
+           <div className='w-fit rounded-md bg-slate-300 text-slate-950 invisible group-hover:visible'>portfolio</div>
            </button>
            <button className='group'>
            <a href='https://github.com/riteshwadhwani'><GitHubIcon/></a>
