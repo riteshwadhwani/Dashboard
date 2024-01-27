@@ -6,7 +6,7 @@ const Geography = () => {
   return (
     <div>
     <div className='w-full'>
-        <Header/>
+        <Header title={RedialBar}/>
     </div>
     <div className="w-[1080px] h-[600px]">
         <RedialBar/>

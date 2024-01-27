@@ -5,7 +5,7 @@ const Bar = () => {
   return (
     <div className='flex flex-col'>
       <div className="h=[150px] w-fit">
-      <Header/>
+      <Header title={"BarChart"} description={"Simple BarCart"}/>
       </div>
       <div className='h-[600px] w-[1080px] flex justify-center items-center'><BarChart/></div>
     </div>

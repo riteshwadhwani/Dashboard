@@ -6,7 +6,7 @@ const Live = () => {
   return (
     <div>
     <div>
-    <Header/>
+    <Header title={"LiveChart"} />
     </div>
     <div className='w-[1080px] h-[600px]'>
     <LiveChart/>
